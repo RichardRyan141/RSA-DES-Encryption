@@ -701,6 +701,7 @@ int getPublicE(string s)
 
 int main()
 {
+	srand(time(0));
 	string plainText, hex_plainText, key, cipherText, hex_decryptedText, decryptedText, message, response, hex_response, client_message, str_len, temp_str;
 	int i, padByte, len;
 	char char_plainText[MAX_PLAIN_LENGTH], char_key[MAX_KEY_LENGTH], final_character, char_response[MAX_PLAIN_LENGTH];
