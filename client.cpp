@@ -700,6 +700,7 @@ int getPublicE(string s)
 
 int main()
 {
+	srand(time(0));
 	string plainText, hex_plainText, key, cipherText, hex_decryptedText, decryptedText, message, response;
 	int i, padByte;
 	char char_plainText[MAX_PLAIN_LENGTH], char_key[MAX_KEY_LENGTH], final_character;
